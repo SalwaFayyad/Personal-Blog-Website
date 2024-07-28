@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff2f7;
+    border-bottom: 1px solid #5b2b3f;
+    position: sticky;
+    top:0;
+}
+
+.nav_header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_header ul li {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav_header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav_header ul li a:hover {
+    color: #b1498b;
+}
+
+#header_2 {
+    display: none;
+}
+#nav_button{
+    display: none;
+
+}
+
+.nav_header2 {
+    width: auto;
+    background-color: #fcfafa;
+    border-bottom: 1px solid #5b2b3f;
+    display: none;
+}
+.nav_header2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav_header2 ul li {
+    margin: 0 15px;
+    font-size: 90%;
+    padding: 10px;
+}
+
+.nav_header2 ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav_header2 ul li a:hover {
+    color: #b1498b;
+}
+
+
+
+@media (max-width: 760px) {
+    .nav_header ul {
+        display: none;
+    }
+    .logo {
+        width: 40%;
+        height: 40%;
+    }
+
+    #nav_button {
+        display: inline;
+        background-color: #fff2f7;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 10px 15px;
+        font-size: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .nav_header {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #f8f8f8;
+        border-top: 1px solid #ccc;
+    }
+
+    .nav_header ul {
+        flex-direction: column;
+    }
+
+    .nav_header ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #header_2 {
+        display: block;
+    }
+
+    #nav_header2 {
+        display: none;
+    }
+
+    #nav_header2 ul {
+        flex-direction: column;
+    }
+
+    #nav_header2 ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+}

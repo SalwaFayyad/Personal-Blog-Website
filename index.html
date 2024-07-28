@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog Website</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo_class">
+            <img src="images/logo.png" class="logo" alt="Logo">    
+        </div>
+        <button id="nav_button" onclick="toggleMenu()">☰</button>
+        <div class="nav_header" id="nav_header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="header_2">
+        <div class="nav_header2" id="nav_header2">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <article class="images">
+        <div  class="img">
+            <img src="images/img1.jpg"  alt="">
+        </div>
+        <div  class="img">
+            <img src="images/img2.jpg"  alt="">
+        </div>
+        <div  class="img">
+            <img src="images/img3.jpg"  alt="">
+        </div>
+ </article>
+ <h2 class="subtitle">My Life. My Blog.</h2>
+
+ <div class="cards">
+    <div class="card1">
+        <div class="img1">
+            <img src="images/coffee.jpg" alt=""> </div>
+            <h2> Coffee</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley 
+                 of type and scrambled it to make a type specimen book. 
+                 <a  class="readmore" href="blog.html"> Read more...</a></p>
+    </div>
+    <div class="card1">
+        <div class="img1">
+            <img src="images/sea.jpg" alt="">  </div>
+            <h2> Sea</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley of type and scrambled
+                  it to make a type specimen book.<a class="readmore"  href="blog.html"> Read more...</a></p>
+    </div>
+    <div class="card1">
+        <div class="img1">
+            <img src="images/breakfast.jpg" alt=""></div>
+            <h2> Breakfast</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer 
+                 took a galley of type and scrambled it to make a type specimen book.<a class="readmore" href="blog.html"> Read more...</a></p>
+        
+    </div>
+</div>
+
+<footer>
+    <h2>Let me know what's on your mind</h2>
+    <form action="" class="form-container"   >
+        <div class="first">
+            <label for="first">First Name</label>
+            <input type="text" placeholder="Enter first name">
+        </div>
+        <div class="last">
+            <label for="last">Last Name</label>
+            <input type="text" placeholder="Enter last name">
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="msg">
+            <label for="msg">Leave us a message...</label>
+            <textarea name="msg" placeholder="message..."></textarea>
+                    </div>
+        <div class="btn_submit"> 
+            <input type="submit" >
+        </div>
+        </form>    
+   <div class="copy"> &copy; 2024 Salwa Fayyad. All rights reserved.</div>
+ </footer>
+
+</body>
+<script src="script/script.js"></script>
+</html>

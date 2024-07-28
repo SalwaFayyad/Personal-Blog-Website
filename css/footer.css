@@ -1,0 +1,87 @@
+.form-container {
+  background-color: #fff2f7;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  padding: 20px;
+  row-gap: 40px;
+  margin-bottom: 20px;
+}
+.first,
+.last,
+.email,
+.msg {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+input {
+  width: 200px;
+  height: 30px;
+}
+label {
+  font-size: 20px;
+  font-family: cursive;
+}
+footer {
+  margin-bottom: 20px;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+}
+/* --------------------- */
+.btn_submit {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn_submit input[type="submit"] {
+  background-color: #f5d8ef;
+  color: rgb(82, 15, 52);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn_submit input[type="submit"]:hover {
+  background-color: #c928bc;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.btn_submit input[type="submit"]:active {
+  background-color: #c928bc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: cursive;
+  color: #e78ada;
+  -webkit-text-stroke: 1px rgb(5, 5, 5);
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5b2b3f;
+}
+
+@media (max-width: 760px) {
+  .form-container {
+    display: grid;
+    grid-template-columns: auto;
+    width: 80%;
+  }
+  input {
+    max-width: 150%;
+    max-height: 100%;
+  }
+  label {
+    font-size: 110%;
+    font-family: cursive;
+  }
+}

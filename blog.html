@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Personal Blog Website</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo_class">
+            <img src="images/logo.png" class="logo" alt="Logo">    
+        </div>
+        <button id="nav_button" onclick="toggleMenu()">☰</button>
+        <div class="nav_header" id="nav_header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="header_2">
+        <div class="nav_header2" id="nav_header2">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <article>
+        <div class="person-information">
+        <div class="person-image">
+            <img src="images/person.png" alt="">
+        </div>
+        <div class="person-details">
+            <label for="name"><b>Blogger Name: </b>Salwa Fayyad</label><br>
+            <label for="job"><b>Job: </b>Computer Engineering</label><br>
+            <label for="address"><b>Address:</b> Ramallah</label><br>
+        </div>
+        <div class="contact-me">
+            <h3>Let's Contact..</h3><br>
+                <ul class="contact-list">
+                    <li>
+                        <a href="https://github.com/SalwaFayyad" target="_blank" rel="noopener noreferrer">
+                            <img src="images/github.png" alt="Github" class="contact-icon"> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/salwa-fayyad-a1981720b/" target="_blank" rel="noopener noreferrer">
+                            <img src="images/linkedin.png" alt="Linkedin" class="contact-icon"> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:salwafayad2003@gmail.com">
+                            <img src="images/gmail.png" alt="Email" class="contact-icon"> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/saloush" target="_blank" rel="noopener noreferrer">
+                            <img src="images/facebook.png" alt="Facebook" class="contact-icon"> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+0593200783">
+                            <img src="images/phone.png" alt="Phone" class="contact-icon"> 
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <div class="post-information">
+        <h1>Coffee</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+             when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+             into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that 
+            it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing 
+            packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            Where does it come from?
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+             and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
+             "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+              The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also 
+            reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <button > <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.yourwebsite.com" 
+                class="share-button" 
+                target="_blank">
+                <i class="fab fa-facebook-f"></i> Share on Facebook
+             </a></button>
+    </div>
+    </article>
+    <footer>
+        <h2>Let me know what's on your mind</h2>
+        <form action="" class="form-container"   >
+            <div class="first">
+                <label for="first">First Name</label>
+                <input type="text" placeholder="Enter first name">
+            </div>
+            <div class="last">
+                <label for="last">Last Name</label>
+                <input type="text" placeholder="Enter last name">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="msg">
+                <label for="msg">Leave us a message...</label>
+                <textarea name="msg" placeholder="message..."></textarea>
+                        </div>
+            <div class="btn_submit"> 
+                <input type="submit" >
+            </div>
+            </form>    
+       <div class="copy"> &copy; 2024 Salwa Fayyad. All rights reserved.</div>
+     </footer>
+</body>
+<script src="script/script.js"></script>
+</html>
