@@ -1,5 +1,5 @@
 .form-container {
-  background-color: #d5cccf;
+  background-color: #e7c9d3;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
@@ -68,6 +68,10 @@ h2 {
   -webkit-text-stroke: 1px rgb(5, 5, 5);
   margin-bottom: 20px;
   border-bottom: 1px solid #5b2b3f;
+}
+#msg{
+  max-width: 200px;
+  max-height: 100px;
 }
 
 @media (max-width: 760px) {
