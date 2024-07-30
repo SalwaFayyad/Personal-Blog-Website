@@ -79,7 +79,7 @@ p {
   background-color: #3b5998;
   color: white;
   padding: 10px 10px;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   border-radius: 10px;
   text-decoration: none;
@@ -94,7 +94,7 @@ p {
   margin-right: 8px; /* Space between icon and text */
 }
 button {
-  background: none; /* Remove default button styling */
+  background: none; 
   border: none;
   padding: 0;
   margin: 0;
@@ -104,5 +104,8 @@ button {
   h1,
   h2 {
     font-size: 80%;
+  }
+  .share-button{
+    width: 60%;
   }
 }

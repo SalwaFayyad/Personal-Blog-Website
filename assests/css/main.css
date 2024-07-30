@@ -21,12 +21,8 @@
   display: block;
   aspect-ratio: 1/1; /* Ensures the image is a square */
   object-fit: cover; /* Ensures the image covers the div without distortion */
-  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
   border-radius: 30px;
-}
-
-.main-img:hover img {
-  transform: scale(0.9); /* Zoom effect on hover */
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
 }
 
 h2 {
