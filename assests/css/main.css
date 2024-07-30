@@ -9,13 +9,13 @@
   padding: 10px;
 }
 
-.img {
+.main-img {
   flex: 1;
   padding: 10px;
   box-sizing: border-box;
 }
 
-.img img {
+.main-img img {
   width: 90%;
   height: auto;
   display: block;
@@ -25,7 +25,7 @@
   border-radius: 30px;
 }
 
-.img:hover img {
+.main-img:hover img {
   transform: scale(0.9); /* Zoom effect on hover */
 }
 
@@ -56,7 +56,7 @@ h2 {
   overflow: hidden;
 }
 
-.img1 img {
+.card-img img {
   width: 100%;
   margin-bottom: 10px;
   height: auto;
@@ -84,7 +84,7 @@ p {
     align-items: center;
   }
 
-  .img {
+  .main-img {
     width: 60%;
     margin-bottom: 20px;
   }

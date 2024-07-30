@@ -6,7 +6,7 @@
     height: 100px;
 }
 
-.header{
+.header-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,44 +17,44 @@
     top:0;
 }
 
-.nav_header ul {
+.nav-header ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.nav_header ul li {
+.nav-header ul li {
     margin: 0 15px;
     font-size: 18px;
 }
 
-.nav_header ul li a {
+.nav-header ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-.nav_header ul li a:hover {
+.nav-header ul li a:hover {
     color: #b1498b;
 }
 
-#header_2 {
+#header-2 {
     display: none;
 }
-#nav_button{
+#nav-button{
     display: none;
 
 }
 
-.nav_header2 {
+.nav-header2 {
     width: auto;
     background-color: #fcfafa;
     border-bottom: 1px solid #5b2b3f;
     display: none;
 }
-.nav_header2 ul {
+.nav-header2 ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -64,27 +64,27 @@
     align-items: center;
 }
 
-.nav_header2 ul li {
+.nav-header2 ul li {
     margin: 0 15px;
     font-size: 90%;
     padding: 10px;
 }
 
-.nav_header2 ul li a {
+.nav-header2 ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-.nav_header2 ul li a:hover {
+.nav-header2 ul li a:hover {
     color: #b1498b;
 }
 
 
 
 @media (max-width: 760px) {
-    .nav_header ul {
+    .nav-header ul {
         display: none;
     }
     .logo {
@@ -92,7 +92,7 @@
         height: 40%;
     }
 
-    #nav_button {
+    #nav-button {
         display: inline;
         background-color: #fff2f7;
         color: rgb(0, 0, 0);
@@ -103,7 +103,7 @@
         border-radius: 5px;
     }
 
-    .nav_header {
+    .nav-header {
         display: none;
         width: 100%;
         position: absolute;
@@ -113,28 +113,28 @@
         border-top: 1px solid #ccc;
     }
 
-    .nav_header ul {
+    .nav-header ul {
         flex-direction: column;
     }
 
-    .nav_header ul li {
+    .nav-header ul li {
         margin: 10px 0;
         text-align: center;
     }
 
-    #header_2 {
+    #header-2 {
         display: block;
     }
 
-    #nav_header2 {
+    #nav-header2 {
         display: none;
     }
 
-    #nav_header2 ul {
+    #nav-header2 ul {
         flex-direction: column;
     }
 
-    #nav_header2 ul li {
+    #nav-header2 ul li {
         margin: 10px 0;
         text-align: center;
     }
