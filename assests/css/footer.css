@@ -1,11 +1,12 @@
 .form-container {
-  background-color: #facbdb;
+  background-color: #f8ecf0;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
   padding: 20px;
   row-gap: 40px;
   margin-bottom: 20px;
+  margin-left: 40px;
 }
 .first,
 .last,
@@ -72,7 +73,7 @@ h2 {
 #msg-area{
   width: 200px;
   height: 80px;
-  max-width: 220px;
+  max-width: 240px;
   max-height: 100px;
 }
 
